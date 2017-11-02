@@ -1,3 +1,4 @@
 *.testlfs filter=lfs diff=lfs merge=lfs -text
 basic-miktex-2.9.6361-x64.exe filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+git-lfs_2.3.4_i386.deb filter=lfs diff=lfs merge=lfs -text
