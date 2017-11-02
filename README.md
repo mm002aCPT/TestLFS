@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21928af5c6947792da1c6ff4a1eda7da274cd1c2ec563076f48a1c0e1f2f3dd1
-size 124
+# TestLFS
+This is just to see how LFS support works.
+
+Sorted ssh authentication :-)
+
+Sorted gpg signing ;-)
+
+Some progress!
+
+OK So this is how it works:
+Choose the (potentially) big files (or file types) and 
+add them to the .gitattributes file.
+Add .gitattribites to your repo!
+git lfs {track,ls-files,env} are useful info commands.
+If you (accidentally!) transfer a file to the lfs server you can recover it
+by:
+git checkout -- <filename>
